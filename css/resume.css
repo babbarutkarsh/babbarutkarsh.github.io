@@ -1,0 +1,311 @@
+/* GENERAL TAGS*/
+body {
+  color: white;
+  background-color: #001d3a;
+  background: url('../assets/resume/images/general/bodybg.webp') fixed center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: uppercase;
+  font-family: RandyGG, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section.resume-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  max-width: 85rem;
+  margin: auto;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+a {
+  font-weight: 400;
+  text-decoration: none;
+  color: #f02140;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #008cff;
+}
+
+
+
+/* IDS */
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+  outline-color: rgb(156, 9, 9);
+}
+
+#email {
+  text-transform: uppercase;
+}
+
+
+/* CLASSES */
+.tf-rgg{
+  font-family: RandyGG, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.subheading {
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: white;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+  transition: transform .1s;
+}
+
+.social-icons a:last-child {
+  margin-right: 0;
+}
+
+.social-icons a:hover {
+  color: white;
+  background-color: #f02140;
+  transform: scale(1.1);
+}
+
+.text-primary {
+  color: #f02140 !important;
+}
+
+.overlay {
+  padding-top: 3rem !important;
+  background-color: #000222bd;
+}
+
+.bg-left-bar {
+  z-index: 1 !important;
+  background-color: rgba(70, 0, 0, 0.8);
+  border-right: #ffffff 1px solid;
+}
+
+.game-image {
+  max-width: 500px;
+  border: 1px solid #001d3a;
+  transition: transform .1s;
+  transition-delay: 0s !important;
+}
+
+.game-image:hover{
+  border: 1px solid #ffffff;
+  cursor: pointer;
+  transform: scale(1.03) !important;
+}
+
+.game-image > img{
+  width: 100%;
+}
+
+.image-skill-container{
+  height: 4rem;
+  width: 4rem;
+  border-bottom: #f02140 solid 1px;
+  padding-bottom: 0.4rem;
+  padding-right: 0.4rem;
+  padding-left: 0.4rem;
+}
+
+.image-skill-container:hover{
+  cursor: pointer;
+  border-bottom: #ffffff solid 2px;
+}
+
+.image-skill {
+  width: 100%;
+  transition: transform .9s;
+}
+
+.image-skill-container:hover > .image-skill {
+  transform: rotatey(360deg);
+}
+
+.button-st {
+  color:white;
+  animation: st-bg-animation 3s infinite;
+  background: rgba(192, 64, 64, 0.5);
+  border: rgb(255, 0, 0) solid 1px;
+}
+
+.button-st:hover {
+  color:white;
+  animation: none;
+  background: rgba(218, 153, 32, 0.5) ;
+  border: rgb(255, 183, 0) solid 1px;
+}
+
+.button-gh {
+  color:white;
+  background: rgba(192, 64, 64, 0.5);
+  border: rgb(255, 0, 0) solid 1px;
+}
+
+.button-gh:hover {
+  color:white;
+  background: rgba(64, 120, 192, 0.5) ;
+  border: rgb(0, 132, 255) solid 1px;
+}
+
+.glow {
+  animation: glow-golden-animation 3s ease-in-out infinite;
+  z-index: 2;
+}
+
+/* @s */
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+  }
+
+  #sideNav .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+
+  #sideNav .navbar-collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  section.resume-section {
+    min-height: 100vh;
+  }
+
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+
+}
+
+@keyframes glow-golden-animation {
+  0% {
+    box-shadow: 0px 0px 10px 5px rgb(255, 183, 0);
+  }
+  25% {
+    box-shadow: none;
+  }
+  100% {
+    box-shadow: 0px 0px 10px 5px rgb(255, 183, 0);
+  }
+}
+
+@keyframes st-bg-animation {
+  0% {
+    background-color: #f0214085;
+  }
+  50% {
+    background: rgba(218, 153, 32, 0.5);
+    border: rgb(255, 183, 0) solid 1px;
+  }
+  100% {
+    background-color: #f0214085;
+  }
+}
+
+@font-face {
+  font-family: RandyGG;
+  src: url("../assets/generic/fonts/RandyGGRegular.ttf");
+}
+
+/* SCROLL BAR*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f0214085;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#f02140;
+}

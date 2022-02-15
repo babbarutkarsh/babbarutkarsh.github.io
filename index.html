@@ -1,1016 +1,533 @@
-<!-- <!DOCTYPE html> -->
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width initial-scale=1" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-PGZH8HT');</script>
-  <!-- End Google Tag Manager -->
+    <meta charset="utf-8">
 
-  <!-- Materialize - Compiled and minified CSS-->
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
-  <!-- Font Awesome Icon - CSS-->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-  <!-- Custom Styles-->
-  <link rel="stylesheet" href="/assets/css/style.css" />
-  <title>Utkarsh Babbar | Software Developer</title>
+    <!-- General meta data -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="url" content="https:/babbarutkarsh.github.io/babbarutkarsh/">
+    <meta name="description" content="Utkarsh's Resume." />
+    <meta name="keywords" content="Utkarsh, Utkarsh, Utkarsh, resume, Resume, RESUME" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#002b6b">
+    <meta name="author" content="Elvi Mihai Sabau Sabau">
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+    <!-- Open Graph / Facebook -->
+    <meta name="type" property="og:type" content="website">
+    <meta name="url" property="og:url" content="https://Utkarsh.dev/">
+    <meta name="title" property="og:title" content="Utkarshs resume">
+    <meta name="descripton" property="og:description" content="Welcome to Utkarsh's resume!">
+    <meta name="image" property="og:image"
+        content="https://Utkarsh.github.io/Utkarsh/assets/resume/images/general/resume_image.png">
+    <meta name="image" property="og:image:secure_url"
+        content="https://Utkarsh.github.io/Utkarsh/assets/resume/images/general/resume_image.png">
+    <meta property="og:image:alt" content="MrUtkarsh banner" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1488" />
+    <meta property="og:image:height" content="497" />
+    <meta name="locale" property="og:locale" content="en_US">
+    <meta name="site_name" property="og:site_name" content='Utkarshs resume'>
 
-    gtag('config', 'UA-126939217-2');
-  </script>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://Utkarsh.dev/">
+    <meta property="twitter:title" content="Utkarshs porftolio">
+    <meta property="twitter:description" content="Utkarshs porftolio">
+    <meta property="twitter:image"
+        content="https://Utkarsh.github.io/Utkarsh/assets/resume/images/general/resume_image.png">
 
-  <!-- Open Graph-->
-  <meta property="og:locale" content="en_US" />
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="Utkarsh Babbar | Software Developer" />
-  <meta property="og:description" content="Software Developer" />
-  <meta property="og:url" content="https://UtkarshBabbar.github.io/" />
-  <meta property="og:site_name" content="Utkarsh Babbar | Software Developer" />
-  <meta property="article:publisher" content="https://UtkarshBabbar.github.io/" />
-  <meta property="og:image" content="https://UtkarshBabbar.github.io/examples/preview.JPG" />
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@Utkarsh_Babbar" />
-  <meta name="twitter:title" content="Coder | Technofreak | Explorer | Minimalist | Humane" />
-  <meta name="twitter:description" content="Software Developer" />
-  <meta name="twitter:url" content="https://twitter.com/Utkarsh_Babbar" />
-  <meta name="author" content="Utkarsh Babbar" />
-  <meta name="description" content="Software Developer with a passion for backend development and artificial intelligence." />
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-icon-57x57.png" />
-  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-icon-60x60.png" />
-  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-icon-72x72.png" />
-  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-icon-76x76.png" />
-  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-icon-114x114.png" />
-  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-icon-120x120.png" />
-  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-icon-144x144.png" />
-  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-icon-152x152.png" />
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-icon-180x180.png" />
-  <link rel="icon" type="image/png" sizes="192x192" href="/assets/img/favicon/android-icon-192x192.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="96x96" href="/assets/img/favicon/favicon-96x96.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon/favicon-16x16.png" />
-  <link rel="manifest" href="/assets/img/favicon/manifest.json" />
-  <meta name="msapplication-TileColor" content="#ffffff" />
-  <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="robots" content="index, follow" />
-  <!-- Google Site Verification for indexing -->
-  <meta name="google-site-verification" content="_qxK8tePiU2fhnwlwnJ7pkDFnj1k2EiKq_cYGy1Cb84" />
+    <!-- CSS -->
+    <link rel="stylesheet" rel="preload" as="style"
+        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <link rel="stylesheet" rel="preload" as="style" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" rel="preload" as="style"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" rel="preload" as="style"
+        href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700">
+    <link rel="stylesheet" rel="preload" as="style"
+        href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i">
+
+    <link rel="stylesheet" rel="preload" as="style" href="vendor/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" rel="preload" as="style" href="css/resume.css?ver=43">
+
+    <!-- Page -->
+    <link rel="icon" type="image/gif" href="./assets/resume/images/general/resume_icon.webp">
+    <title>Utkarsh Babbar</title>
+
 </head>
 
-<body>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGZH8HT"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-  </noscript>
-  
-  <!-- Navigation Menu-->
-  <!-- Nav class 1 -->
-  <nav class="hide-on-small-only">
-    <ul class="side-nav fixed section table-of-contents">
-
-      <li class="logo">
-        <a id="logo-container" aria-label="Navigate to the beginning of the page" href="#intro"
-          class="brand-logo grey-blue-text">
-          <img src="/assets/img/passport-new.jpg" class="circle img-responsive profile-pic" alt="avatar">
+<body id="page-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-left-bar fixed-top" id="sideNav">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <span class="d-block d-lg-none tf-rgg">Utkarsh Hornblower</span>
+            <span class="d-none d-lg-block">
+                <img class="img-fluid img-profile rounded-circle mx-auto mb-4"
+                    src="./assets/resume/images/skills-logos/picme.webp"
+                    alt="My Avatar :3" />
+            </span>
         </a>
-      </li>
 
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <li class="bold">
-        <!-- mdi-av-web small
-             mdi-av-my-library-books small-->
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#Hobbies">Hobbies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#awards">Awards and Certs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#skills">Summary of skills</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-      <li class="bold">
-        <!--
-        ICONS:
-        mdi-action-assessment
-        mdi-social-poll
-        mdi-av-equalizer
-        -->
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-      
-      <li class="bold">
-        <!--
-        ICONS:
-        -->
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
+    <div class="container-fluid p-0 overlay">
 
-      <li class="bold">
-        <!-- 
-        1. mdi-communication-contacts
-        2. mdi-content-mail
-        3. mdi-communication-email
-        -->
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+            <div class="w-100">
+                <h1 class="mb-0">Utkarsh
+                    <span class="text-primary">Babbar</span>
+                </h1>
 
-      <li class="bold">
-        <!--
-        ICONS:
-        1. mdi-action-description
-        2. mdi-file-folder
-        3. mdi-file-folder-open
-        4. mdi-file-attachment
-        5. mdi-file-folder-shared
-        -->
-        <!-- <a aria-label="Open Utkarsh's resume in a new tab" href="#resume" target="_blank"
-          onclick="window.open('https://drive.google.com/file/d/1vYi-bMyIsZPve0x_clxY8xsDtiHiOMd3/view?usp=sharing')"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a> -->
-        <a aria-label="Open Utkarsh's resume in a new tab" href="https://UtkarshBabbar.github.io/assets/resume/Utkarsh_Babbar_Resume.pdf" target="_blank"
-        class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>  
-      </li>
-    </ul>
-  </nav>
+                <div class="subheading mb-5 tf-rgg">India ·
+                    <a id="email" class="tf-rgg" href="mailto:utkarshbabbar321@gmail.com">utkarshbabbar321@gmail.com</a>
+                </div>
+                <div>
+                    <p data-aos="fade-down" data-aos-delay="100" data-aos-once="true">
+                        Love with your heart, and use your head for everything else!
+                        <br> ~ Captain disillusion.
+                    </p>
+                    <p data-aos="fade-down" data-aos-delay="200" data-aos-once="true" class="lead mb-5">
+                        I am a Computer Science Undergraduate Student from Thapar University. I enjoy problem-solving and coding. Always strive to bring 100% to the work I do.
 
-  <!-- Nav class 2 -->
-  <nav class="hide-on-large only trigger z-depth-1">
-    <a aria-label="Toggle visibility of the mobile navbar" href="#" data-activates="slide-out"
-      class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    <div class="name-title">
-      <a id="name" aria-label="Navigate to the beginning of the page" href="#" class="teal-text">Utkarsh
-        Babbar</a><span class="black-text">Software Developer</span>
+                        I have worked on technologies like Python, Django, MySQL, PostgreSQL, HTML5, CSS, Java, C++ and machine learning during my bachelors. I have 6 months of professional work experience which helped me strengthen my experience in Python and Machine Learning.
+              
+                        I am passionate about developing complex applications that solve real-world problems impacting millions of users.
+
+                        <!-- <a href="./portfolio.html" target="_blank">
+                            By the way, don't forget to check my porfolio :D
+                        </a> -->
+                    </p>
+                    <p data-aos="fade-down" data-aos-delay="300" data-aos-once="true" class="lead mb-5">
+                        Moving on from software development, I always had a special spark for system management. I use
+                        to play with VPSs, trying to do all sorts of stuff, and thanks to this, at the same time I was
+                        studying I also got to help some gaming communities with their virtual infrastructures, mounting
+                        forums, deploying servers, and also managing them.
+                    </p>
+                    <p data-aos="fade-down" data-aos-delay="400" data-aos-once="true" class="lead mb-5">
+                        I enjoy watching movies, I'm a big fan of action, sci-fi, and fantasy films/series, I am a potterhead and marvelite. 
+                        And about foods.. pizza, icecreams, momos and noodles, have a special place in my stomach :p
+                    </p>
+
+                    <div class="social-icons">
+                        <!-- <a class="tippy" data-tippy-content="Portfolio" data-aos="flip-left" data-aos-delay="600"
+                            data-aos-once="true" href="./portfolio.html" target="_blank">
+                            <i class="fa fa-folder-open"></i>
+                        </a> -->
+                        <a class="tippy" data-tippy-content="LinkedIn" data-aos="flip-left" data-aos-delay="700"
+                            data-aos-once="true" href="https://www.linkedin.com/in/utkarsh-babbar-3a931a167/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a class="tippy" data-tippy-content="GitHub" data-aos="flip-left" data-aos-delay="800"
+                            data-aos-once="true" href="https://github.com/babbarutkarsh" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a class="tippy" data-tippy-content="Steam" data-aos="flip-left" data-aos-delay="900"
+                            data-aos-once="true" href="https://steamcommunity.com/profiles/76561199163596293/" target="_blank">
+                            <i class="fab fa-steam"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+            <div class="w-100">
+                <h2 class="mb-5">Experience</h2>
+                <div data-aos="fade-right" data-aos-once="true"
+                    class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h4 class="mb-0 text-white">SDE intern</h4>
+                        <div class="subheading mb-3">Amadeus Software Labs, Bangalore</div>
+                        <p>
+                            Working as an intern at Amadeus labs, Bangalore.
+                        </br>
+                        Key responsibilities include:</br>
+                        • To write terraform scripts from scratch for managing and provisioning of Infrastructure as Code(IaC) .</br>
+                        • Configure and install Jenkins for Automating Deployments and providing an automation solution for different services being used by the company.</br>
+                        Relatively very new here so still learning a lot of cloud related stuff.
+                        </p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="  subheading">Feb 2022 - Present</span>
+                    </div>
+                </div>
+
+                <div data-aos="fade-right" data-aos-once="true"
+                    class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h4 class="mb-0 text-white">Prism R&D intern</h4>
+                        <div class="subheading mb-3">Samsung Research Institute, Bangalore</div>
+                        <p>
+                            • Implemented and explored RNN based deep learning
+                            techniques for image captioning on Flickr dataset</br>
+                            • Explored how Image transformers could be utilized to
+                            make image captioning more relevant and accurate.</br>
+                            • Made an ensemble of latest transformer based pipelines
+                            and achieved a CIDEr score of 0.88</br></p>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="  subheading">June. 2021 - November. 2021</span>
+                    </div>
+                </div>
+
+                <!-- No one cares about this :c
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                <div class="resume-content">
+                    <h4 class="mb-0 text-white">Game Master</h4>
+                    <div class="subheading mb-3">Splitscreen Studios GmbH, Hamburg</div>
+                    <p>Generally, invest most of the time in support chat, which involves moderating the public chat and the
+                    support chat itself. Therefore, it was essential, above all, to have the ability to be completely
+                    impartial
+                    and objective before the different situations they may present. Managed and made many events, for more
+                    than 230 active users at the same time. And honestly, most fun i've ever had moderating a community!</p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="  subheading">Aug. 2016 – Jan. 2018</span>
+                </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                <div class="resume-content">
+                    <h4 class="mb-0 text-white">Community Administrator</h4>
+                    <div class="subheading mb-3">CU Servers, Valencia</div>
+                    <p>Managed a vast gaming community of +4.000 users. Worked alongside with all moderation teams, taking in
+                    consideration the user, the community, and the company, to make sure each action is not only right and
+                    neutral, but also a suitable solution for all parties.</p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="  subheading">Apr. 2014 – Oct. 2016</span>
+                </div>
+                </div>
+
+                <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+                <div class="resume-content">
+                    <h4 class="mb-0 text-white">Server Administrator</h4>
+                    <div class="subheading mb-3">Gmoddayz (CyberGmod), UK</div>
+                    <p>Server Administrator at CyberGmod, lately renamed <a  href="http://hbn.gg/">Hellbreak
+                        Network</a>. Worked
+                    with the
+                    community and moderated the whole array of GMod servers such as DayZ, TTTs, etc.. that we had at the time.
+                    </p>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="  subheading">Jan. 2014 – Aug. 2015</span>
+                </div>
+                </div
+                -->
+
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+            <div class="w-100">
+                <h2 class="mb-5">Education</h2>
+
+                <div data-aos="fade-down" data-aos-once="true"
+                    class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h4 class="mb-0 text-white ">
+                            Bachelor of Electronics and Computer Engineering
+                        </h4>
+                        <div class="subheading">Thapar University, Patiala</div>
+                        <span>CGPA: 8.61/10</span>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="  subheading">2018 - 2022(present)</span>
+                        
+                    </div>
+                </div>
+
+                
+
+               
+
+               
+
+                <div data-aos="fade-down" data-aos-once="true"
+                    class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="resume-content">
+                        <h4 class="mb-0 text-white">
+                            ISC Class 12th (PCM)
+                        </h4>
+                        <div class="subheading">Doon Presidency School, Dehradun</div>
+                        <span>Percentage: 86%</span>
+                    </div>
+                    <div class="resume-date text-md-right">
+                        <span class="  subheading">2017</span>
+                    </div>
+                </div>
+
+                <div data-aos="fade-down" data-aos-once="true"
+                class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+                <div class="resume-content">
+                    <h4 class="mb-0 text-white">
+                        ICSE Class 10th (Science)
+                    </h4>
+                    <div class="subheading">Doon Presidency School, Dehradun</div>
+                    <span>Percentage: 90%</span>
+                </div>
+                <div class="resume-date text-md-right">
+                    <span class="  subheading">2015</span>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="Hobbies">
+            <div class="w-100">
+                <h2 class="mb-5">Hobbies</h2>
+                <p data-aos="fade-down-right" data-aos-delay="100" data-aos-once="true" class="mb-2">
+                    Aside from developing stuff, I also enjoy playing videogames, reading books,
+                    or random articles/stuff on the internet. I am a big fan of RPG games.
+                </p>
+                    Farcry5, Assassin's Creed, GTA5, valorant are some of my favorites.
+                </p>
+                <div class="mb-2">
+                    <p data-aos="fade-down-right" data-aos-delay="300" data-aos-once="true">
+                        I like reading books, the latest book which I read is Atomic Habits and I also like to explore books on spirituality,
+                         recently read Autobiography of a Yogi.
+                    
+                    </p>
+
+                    <div class="d-flex flex-row flex-wrap justify-content-center">
+                      
+                       
+                        <p data-aos="zoom-in" data-aos-delay="200" data-aos-once="true" class="mt-2 text-center">I also
+                            enjoy going for a walk while listening to some music, it clears my mind, makes me feel
+                            refreshed, and allows me to focus on things more easily.
+                        </p>
+                        <a data-aos="fade-down" data-aos-delay="300" data-aos-once="true"
+                            href="./assets/resume/images/pictures/nw1.webp" class="game-image m-3"
+                            data-caption="A picture of some barren lands on my city." data-fancybox="sg">
+                            <img src="./assets/resume/images/pictures/nw1.webp"
+                                alt="A picture of some barren lands on my city." />
+                        </a>
+                        <a data-aos="fade-down" data-aos-delay="400" data-aos-once="true"
+                            href="./assets/resume/images/pictures/nw2.webp" class="game-image m-3"
+                            data-caption="A picture of one of the streets of the Univertsity of Alicante's campus."
+                            data-fancybox="sg">
+                            <img src="./assets/resume/images/pictures/nw2.webp"
+                                alt="A picture of one of the streets in my University" />
+                        </a>
+                    </div>
+                </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+            <div class="w-100">
+                <h2 class="mb-5">Achievements</h2>
+                <ul class="mb-0">
+                    <li data-aos="zoom-in" data-aos-once="true"><p>Won second prize out of 150+ participating teams in
+                        HackOWASP hackathon where we solved an ISRO’s problem
+                        statement.</p></li>
+                    <li data-aos="zoom-in" data-aos-once="true"><p>NSTSE state rank 25, school rank 1.</p> </li>
+                    <li data-aos="zoom-in" data-aos-once="true"> <p>Third rank in InterviewBit problem solving university ranking.</p></li>
+                    <li data-aos="zoom-in" data-aos-once="true"> Solved 650+ questions on interviewbit and leetcode.</li>
+                  
+                    
+                    
+                   
+                </ul>
+            </div>
+        </section>
+
+        <hr class="m-0">
+
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+            <div>
+                <h2>Tech stacks i tinker with.</h2>
+
+                <!-- Stacks that are commented are commented because, i haven't touched them in a looong time ( 2 - 3 years ),
+                 or either i feel like i need to get more in depth with them, to actually feel like it's honest to list them -->
+
+                <div class="subheading mb-3 title-skillsection"> Programming & Scripting languages: </div>
+                <div class="d-flex flex-row flex-wrap ">
+                    <a data-tippy-content="JavaScript" class="image-skill-container tippy m-1 tippy" target="_blank"
+                        href="https://www.javascript.com/">
+                        <img alt="JavaScript" class="image-skill" src="./assets/resume/images/skills-logos/js.webp" />
+                    </a>
+                   
+                    <a data-tippy-content="Python" class="image-skill-container tippy m-1" target="_blank"
+                        href="https://www.python.org/">
+                        <img alt="Python" class="image-skill" src="./assets/resume/images/skills-logos/python.webp" />
+                    </a>
+                    <a data-tippy-content="C" class="image-skill-container tippy m-1" target="_blank"
+                        href="https://en.wikipedia.org/wiki/C_(programming_language)">
+                        <img alt="C" class="image-skill" src="./assets/resume/images/skills-logos/c.webp" />
+                    </a>
+                    <a data-tippy-content="C++" class="image-skill-container tippy m-1" target="_blank"
+                        href="https://en.wikipedia.org/wiki/C%2B%2B">
+                        <img alt="C++" class="image-skill" src="./assets/resume/images/skills-logos/c++.webp" />
+                    </a>
+                 
+                    <!--a data-tippy-content="Java" alt="Java" class="image-skill-container tippy m-1" target="_blank"
+                        href="https://www.java.com/es/">
+                        <img class="image-skill" src="./assets/resume/images/skills-logos/java.webp" />
+                    </a-->
+                
+                    <a data-tippy-content="SHELL, BASH, KSH" alt="BASH" class="image-skill-container tippy m-1"
+                        target="_blank" href="https://www.gnu.org/software/bash/">
+                        <img class="image-skill" src="./assets/resume/images/skills-logos/bash.webp" />
+                    </a>
+
+                </div>
+
+                <div class="subheading mb-2"> Execution Environments, Frameworks and Libraries: </div>
+                <div class="d-flex flex-row flex-wrap">
+                    <a data-tippy-content="django" class="image-skill-container tippy m-1" target="_blank"
+                        href="https://www.djangoproject.com/">
+                        <img alt="php" class="image-skill" src="./assets/resume/images/skills-logos/django.webp" />
+                    </a>
+                
+                    <a data-tippy-content="React" class="image-skill-container tippy m-1" target="_blank"
+                        href="https://reactjs.org/">
+                        <img alt="React" class="image-skill" src="./assets/resume/images/skills-logos/react.webp" />
+                    </a>
+                    <!--div data-tippy-content="SolidJS" class="image-skill-container tippy m-1">
+                        <img alt="SolidJS" class="image-skill" src="./assets/resume/images/skills-logos/solidjs.webp" />
+                    </div-->
+                  
+                    <!--div data-tippy-content="Symfony" class="image-skill-container tippy m-1">
+                        <img alt="Symfony" class="image-skill" src="./assets/resume/images/skills-logos/symfony.webp" />
+                    </div-->
+                    <!--a data-tippy-content="Deno" class="image-skill-container tippy m-1" target="_blank" href="https://deno.land/">
+                        <img alt="Deno" class="image-skill"
+                            src="./assets/resume/images/skills-logos/deno.webp" />
+                    </a-->
+                    <!--div data-tippy-content="Deno oak" class="image-skill-container tippy m-1">
+                        <img alt="deno oak" class="image-skill" src="./assets/resume/images/skills-logos/denooak.webp" />
+                    </div-->
+
+                </div>
+
+                <div class="subheading mb-2"> Databases: </div>
+                <div class="d-flex flex-row flex-wrap">
+                 
+                    <a data-tippy-content="MySQL" class="image-skill-container tippy m-1" target="_blank"
+                    href="https://www.mysql.com/">
+                    <img alt="MongoDB" class="image-skill" src="./assets/resume/images/skills-logos/mysql.webp" />
+                    </a>
+
+                    <a data-tippy-content="MongoDB" class="image-skill-container tippy m-1" target="_blank"
+                        href="https://www.mongodb.com/">
+                        <img alt="MongoDB" class="image-skill" src="./assets/resume/images/skills-logos/mongodb.webp" />
+                    </a>
+
+                </div>
+
+                <div class="subheading mb-2"> Operating Systems: </div>
+                <div class="d-flex flex-row flex-wrap">
+                    <a data-tippy-content="Windows Server 2012" class="image-skill-container tippy m-1" target="_blank"
+                        href="https://www.microsoft.com/es-es/evalcenter/evaluate-windows-server-2012-r2">
+                        <img alt="Windows Server 2012" class="image-skill"
+                            src="./assets/resume/images/skills-logos/windowsserver.webp" />
+                    </a>
+                    <a data-tippy-content="Ubuntu" class="image-skill-container tippy m-1" target="_blank"
+                        href="https://ubuntu.com/">
+                        <img alt="Ubuntu" class="image-skill" src="./assets/resume/images/skills-logos/ubuntu.webp" />
+                    </a>
+                 
+                </div>
+
+               
+                <div class="subheading mb-2"> Currently learning in my freetime (Blockchain Stack): </div>
+                <div class="d-flex flex-row flex-wrap">
+                    <a data-tippy-content="Solidity" class="image-skill-container tippy m-1" target="_blank"
+                        href="https://docs.soliditylang.org/">
+                        <img alt="Solidity" class="image-skill"
+                            src="./assets/resume/images/skills-logos/solidity.webp" />
+                    </a>
+                    <a data-tippy-content="Web3JS" class="image-skill-container tippy m-1" target="_blank"
+                        href="https://web3js.readthedocs.io/">
+                        <img alt="Web3JS" class="image-skill" src="./assets/resume/images/skills-logos/web3.webp" />
+                    </a>
+                    <a data-tippy-content="EthersJS" class="image-skill-container tippy m-1" target="_blank"
+                        href="https://docs.ethers.io/">
+                        <img alt="Ethers" class="image-skill" src="./assets/resume/images/skills-logos/ethers.webp" />
+                    </a>
+                    <a data-tippy-content="Truffle" class="image-skill-container tippy m-1" target="_blank"
+                        href="https://www.trufflesuite.com/truffle">
+                        <img alt="Truffle" class="image-skill" src="./assets/resume/images/skills-logos/truffle.webp" />
+                    </a>
+                   
+                    <a data-tippy-content="HardHat" class="image-skill-container tippy m-1" target="_blank"
+                        href="https://hardhat.org/">
+                        <img alt="HardHat" class="image-skill" src="./assets/resume/images/skills-logos/hardhat.webp" />
+                    </a>
+
+                </div>
+
+                <div class="subheading mt-3">If you want to validate my techstack, or know more about the stuff i
+                    know
+                    and do, you should check
+                    out my
+                    <!-- <a type="button" class="btn button-st" href="./portfolio.html" target="_blank">Portfolio</a>
+                    or -->
+                    <a type="button" class="btn button-gh" href="https://github.com/babbarutkarsh" target="_blank">GitHub</a>
+
+                </div>
+            </div>
+        </section>
     </div>
-  </nav>
-
-  <!-- Nav class 3 -->
-  <nav class="hide-on-large only">
-    <ul id="slide-out" class="side-nav">
-      <li class="bold">
-        <a aria-label="Navigate to the About section" href="#about" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-person small"></i><span>About</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Experience section" href="#experience"
-          class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-trending-up small"></i><span>Experience</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Projects section" href="#projects" class="waves-effect waves-dark teal-text"><i
-            class="mdi-av-my-library-books small"></i><span>Projects</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Skills section" href="#skills" class="waves-effect waves-dark teal-text"><i
-            class="mdi-action-assessment small"></i><span>Skills</span></a>
-      </li>
-
-      <li class="bold">
-        <a aria-label="Navigate to the Education section" href="#education" class="waves-effect waves-dark teal-text"><i
-            class="mdi-social-school small"></i><span>Education</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Navigate to the Contact section" href="#contact" class="waves-effect waves-dark teal-text"><i
-            class="mdi-content-mail small"></i><span>Contact</span></a>
-      </li>
-      <li class="bold">
-        <a aria-label="Open Utkarsh's Resume in a new tab"
-          href="https://drive.google.com/file/d/1B6MZ1z0-7NsefC3Lm_q-uhib28MTqpE9/view?usp=sharing" target="_blank"
-          class="waves-effect waves-dark teal-text"><i class="mdi-file-folder-open small"></i><span>Resume</span></a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Main Content-->
-  <main>
-    <!-- First Section: Heading lines and image -->
-    <section id="intro" class="section scrollspy full-height">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="col-md-9">
-          <div class="content section-padding valign" style="margin-left: 10%; margin-top: 50px;">
-            <div class="caption">
-              <h2>Hi, I'm <span class="teal">Utkarsh Babbar.</span></h2>
-              <h5 style="color:#fff">A <span class="typing" style="font-weight: 300; color:#004d40"></span></h5>
-              <!-- <h5 style="color:#00796b">A <span class="typing" style="font-weight: 300; color:#fff"></span></h5> -->
-              <h5>Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems.</h5>
-            </div>
-            <div class="social">
-              <a href="https://www.linkedin.com/in/utkarsh-babbar-3a931a167/" target="_blank">
-                <button class="icon-btn linkedin">
-                  <i class="fa fa-linkedin"></i>
-                </button>
-              </a>
-              <a href="https://github.com/babbarutkarsh/" target="_blank">
-                <button class="icon-btn github">
-                  <i class="fa fa-github"></i>
-                </button>
-              </a>
-
-              <!-- <a href="https://angel.co/u/Utkarsh_Babbar" target="_blank">
-                <button class="icon-btn angellist">
-                  <i class="fa fa-angellist"></i>
-                </button>
-              </a> -->
-
-              <!-- <a href="http://linkedin.com/in/UtkarshBabbar" target="_blank">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x"></i>
-                    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-
-                  </span>
-              </a> -->
-            </div>
-            <div class='buttons'>
-              <a href="#about" class="readme">Read More</a>
-              <a href="#contact" class="contactme">Contact Me</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Second Section: About -->
-    <section id="about" class="section scrollspy">
-      <h3 class="page-title white-text teal">About</h3>
-      <div class="container flow-text">
-        <!-- <blockquote>
-          <h2>
-            A Software Developer with a passion for Backend Development and Artificial Intelligence.
-
-          </h2>
-        </blockquote> -->        
-        <p>
-          I am a Computer Science Undergraduate Student from Thapar University. I enjoy problem-solving and coding. Always strive to bring 100% to the work I do.
-
-          I have worked on technologies like Python, Django, MySQL, PostgreSQL, HTML5, CSS, Java, C++ and machine learning during my bachelors. I have 6 months of professional work experience which helped me strengthen my experience in Python and Machine Learning.
-
-          I am passionate about developing complex applications that solve real-world problems impacting millions of users.
-        </p>
-        <p>
-          <ul>
-            <li><b>Languages:</b> Python, Java, JavaScript, C, C++, HTML/CSS, Bash</li>
-            <li><b>Databases:</b> MySQL, MongoDB, SQLite</li>
-            <li><b>Machine Learning:</b> NumPy, Pandas, OpenCV, Keras, TensorFlow, PyTorch </li>
-            <li><b>Web:</b> React, Django, Node.js,Bootstrap, HTML, CSS, JS</li>
-            <li><b>Cloud:</b> Azure, Terraform</li>
-            <li><b>Blockchain:</b> Solidity, Hardhat, ERC20, ERC721, Remix </li>
-            <li><b>Tools & Technologies:</b> Git, Heroku, Jupyter</li>
-          </ul>
-          
-        </p>
-          
-        <!-- <p>
-          
-          Detail-oriented Software Developer with professional experience in Backend Development, Machine Learning, Computer Vision. I am adept in Python, Django, Flask, SQL, Machine Learning, Computer Vision.           
-        </p> -->
-        <p>
-          Looking for an opportunity to work in a challenging position combining my skills in Software Engineering, which provides professional development, interesting experiences and personal growth.
-        </p>
-        <!-- <p>
-          Another Paragraph
-        </p>  -->
-        <!-- <p>
-        <strong>Current Focus</strong>:&nbsp;<a aria-label="Navigate to the Inclusive Design Patterns homepage"
-          href="https://www.smashingmagazine.com/inclusive-design-patterns/">Accessibility</a>&nbsp;//&nbsp;<a
-          aria-label="Navigate to the Full Stack React homepage"
-          href="https://www.fullstackreact.com/">React</a>&nbsp;//&nbsp;<a
-          aria-label='Navigate to the article "Scalable CSS"'
-          href="https://mrmrs.github.io/writing/2016/03/24/scalable-css/">Design Systems</a>
-        </p> -->
-      </div>
-    </section>
 
 
-    <!-- Third Section: Experience -->
-    <section id="experience" class="section scrollspy">
-      <h3 class="page-title white-text teal">Experience</h3>
-      <div class="container">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"
+        integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
 
-        <!-- Latest Experience -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.zhiffy.com/" target="_blank"><img alt="Zhiffy logo"
-                    src="/assets/img/exp-zhiffy-logo-1.webp" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.zhiffy.com/" target="_blank"
-                      class="teal-text hoverline">Zhiffy</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Software Engineer</div>
-            <ul>
-              <li>
-                Developed and managed the backend of an e-commerce platform using Flask, MongoDB, and AWS.
-              </li>
-              <li>
-                Worked on three web applications targeting customers, selling vendors, and admin users; built 50+ RESTful APIs with functionalities
-such as login/sign up, view a product, add a product to cart, checkout the order, etc.
-              </li>
-              <li>Improved the response time by 20% by refactoring the codebase and changing database design and queries.</li>
-              <li>Added a bulk upload feature which reduced the manual work of adding products into a database.</li>
-              <li>
-                <b>Tools:</b> Python, Flask, MongoDB
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>July 2020 - Nov 2020 | Hyderabad, India</span>
-          </div>
-        </div>
+    <script src="js/resume.min.js"></script>
 
-        
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.meditab.com" target="_blank"><img alt="Meditab logo"
-                    src="/assets/img/exp-meditab-logo-500x500.jpg" class="responsive-img center-block" /></a>
-              </div>
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="http://meditab.com" target="_blank"
-                      class="teal-text hoverline">Meditab</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Programmer Analyst</div>
-            <ul>
-              <li>
-                Customized a tree-based optimization algorithm that separates drugs into distinct groups to maximize the concurrent execution of drug
-dispenser robots; improved an optimization algorithm that reduced the cycle-time of the automation process by 25%.
-              </li>
-              <li>
-                Devised a customized recursion algorithm to extend the functionality of the current environment to a multi-robot and multi-system
-environment
-              </li>
-              <li>
-                Built a modular video analytics app using Flask, OpenCV that tracks the location of each human in a multi-camera environment;
-utilized perspective transformation, object detection, and object tracking to find the location of a human.
-              </li>
-              <li>Increased the speed of the video analytics app by 20% by using a customized YOLOv3 algorithm to perform object detection and
-                DeepSORT algorithm for multi-object tracking.</li>
-              <li>
-                <b>Tools:</b> Python, Flask, OpenCV, Keras, Tensorflow, PyTorch
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>Dec 2018 - July 2019 | Ahmedabad, India</span>
-          </div>
-        </div>
-
-        <!-- Experience 2 -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <img alt="Mtag logo" src="/assets/img/exp-mtag-logo-250x250.jpg" class="responsive-img center-block" />
-
-              </div>
-
-              <!-- <div class="col s12 m10"> -->
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="#experience" class="teal-text hoverline">Mtag
-                      Innovations</a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Software Developer</div>
-            <ul>
-              <li>
-                Programmed a cloud-based web app using Flask and JavaScript aimed at storing, visualizing, and tracking temperature and humidity
-of each drug container to estimate the degradation of the drug.
-              </li>
-              <li>
-                Created an alert system to send notifications and emails when the parameters exceed the threshold.
-              </li>
-              <li>
-                <b>Tools:</b> Python, Flask, JavaScript
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>July 2018 - Nov 2018 | Ahmedabad, India</span>
-          </div>
-        </div>
-
-        <!-- Experience 3 -->
-        <div class="card">
-          <div class="card-content">
-            <div class="row">
-              <div class="col s12 m2">
-                <a href="https://www.cignex.com" target="_blank"><img alt="Cignex logo"
-                    src="/assets/img/exp-cignex-logo.png" class="responsive-img center-block" /></a>
-              </div>
-              <div class="col s12 m10">
-                <p>
-                  <span class="card-title"><a href="https://www.cignex.com" target="_blank"
-                      class="teal-text hoverline">CIGNEX
-                      Datamatics </a></span>
-                </p>
-              </div>
-            </div>
-            <div class="role brown-text text-darken-2">Project Trainee</div>
-            <ul>
-              <li>
-                Designed a library management system for a local library, where we undertook activities like requirement
-                elicitation, preparing Data Flow
-                and Entity-Relationship diagrams.
-              </li>
-              <li>
-                Delivered a solution for a POC involving Automatic Financial Document Classifier using Natural Language
-                Processing and Support Vector
-                Machines with 96% accuracy on the company’s data.
-              </li>
-              <li>
-                <b>Tools:</b> Python, Scikit-learn, NLTK
-              </li>
-            </ul>
-          </div>
-          <div class="card-action">
-            <span>June 2017 - July 2017 | Ahmedabad, India</span>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Fourth Section: Projects -->
-    <section id="projects" class="section scrollspy">
-      <h3 class="page-title white-text teal">Projects</h3>
-      <div class="container">
-        <div class="row">
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="music streaming app" src="/assets/img/project-music-player.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Music Player Web-App<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A music streaming web app based on Django
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Django, HTML, CSS, Bootstrap, SQLite, AWS S3, Heroku</li>
-                  <li>Register/login to the web app(with OAuth-based Google Sign-In).</li>
-                  <li>Search and filter songs based on language and singer.</li>
-                  <li>Create multiple playlists and add/remove songs to/from playlist.</li>
-                  <li>Scroll through recently played/viewed songs.</li>
-
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://galvanic-music.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/UtkarshBabbar/music-player"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="quiz app" src="/assets/img/project-quizup-logo-1.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Quiz Web-App<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A quiz playing web app based on Django
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Django, HTML, CSS, Bootstrap, SQLite, Heroku</li>
-                  <li>Register/login to the web app(with OAuth-based Google Sign-In).</li>
-                  <li>Play Quiz and see the leaderboard</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://quiz-up-app.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/UtkarshBabbar/QuizUp"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- 1. Django Project -->
-          <!-- <div class="col s12 m6 l6">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="django web app" src="/assets/img/project-library-logo.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Local Library Web-App<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A web-app that creates an online catalog for a small local library, where users can browse available books and manage their accounts.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> HTML, CSS, Bootstrap, SQLite, Django, Heroku</li>
-                  <li>Users can view list and detail information for books and authors.</li>
-                  <li>Admin users can create and manage models.</li>
-                  <li>Librarians can renew reserved books.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://django-local-lib.herokuapp.com" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/UtkarshBabbar/django-local-library"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
-
-          <!-- Flask Project -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of web app" src="/assets/img/project-blog-logo.jpg"
-                style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Blog Web-App<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A simple and extensible blog web-app based on Flask.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title teal-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> HTML, CSS, Bootstrap, Flask, SQLAlchemy, Postgresql, Python</li>
-                  <li>Users can view posts and contact the admin via Contact Page.</li>
-                  <li>Admin can Add, Delete, Update posts.</li>
-
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit Blog website" href="https://flask-heroku-blog.herokuapp.com/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/UtkarshBabbar/flask-blog"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- VQA -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/project-aim_bert-bias.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Visual Question Answering<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  An attention-based classification model that aims at generating an answer for a given input image.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title teal-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Incorporated Convolution Neural Networks (CNN) for extracting image features and Long Short Term
-                    Memory for extracting question
-                    embeddings.</li>
-                  <li>Tested the model on the COCO dataset, abstract scenes images, and got 69% overall accuracy on the
-                    VQA evaluation metric.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project"
-                    href="https://github.com/UtkarshBabbar/visual-question-answering" target="_blank"
-                    data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Video Summarizer -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/computer-vision-v2-04.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Video Summarizer<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A Seq2Seq model that generates a short summary of the given input video.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Incorporated CNN to detect and classify objects in the video frames and Long Short Term Memory for
-                    generating a summary.</li>
-                  <li>Evaluated the model on MSVD (Microsoft Video Description Corpus) dataset; achieved 0.77, 0.71,
-                    0.52 scores respectively on ROGUE,
-                    BLEU, METEOR evaluation metrics.</li>
-
-                </ul>
-                <!-- TODO: UPLOAD THIS PROJECT ON GITHUB -->
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/UtkarshBabbar/"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Image Generator -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/gan.jpg" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Image Generator<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  An image generator based on the concept of adversarial networks (GANs)
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Developed system was tested on a human-face database and loss was calculated by comparing the PCAs
-                    of generated and original image.</li>
-                  <li>Calculated difference in PCA was less than 10%, depicting the successful generation of an image by
-                    the generator.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/UtkarshBabbar/"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Head Counting System -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/Blog-Images-Forget-Machine-Learning-Humans-Still-Have-a-Lot-to-Learn-Part-II.jpg" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Head Counting System<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A system that calculates the attendance of the class from a panoramic image of a live classroom.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Used Singular Value Decomposition for image compression; applied various image processing
-                    techniques and morphological operations to
-                    detect the number of heads.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit the GitHub repo for  project"
-                    href="https://github.com/UtkarshBabbar/visual-question-answering" target="_blank"
-                    data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- ************* -->
-        </div>
-      </div>
-    </section>
-
-    <!-- Fifth Section: Skills -->
-    <section id="skills" class="section scrollspy">
-      <h3 class="page-title white-text teal">Skills</h3>
-      <div class="container">
-        <!-- Languages and Databases -->
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Languages and Databases</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/python-logo-1-300x300.jpg" class="responsive-img" />Python
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/html5-300x300.jpg" class="responsive-img" />HTML5
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/css3-300x300.jpg" class="responsive-img" />CSS3
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/mysql-logo-1-300x300.jpg" class="responsive-img" />MySQL
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/postgresql-logo.png" class="responsive-img" />PostgreSQL
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/shell-logo-1-300x300.jpg" class="responsive-img" />Shell Scripting
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Libraries</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/numpy-logo-1-500x500.jpg" class="responsive-img" />NumPy
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/pandas-logo-2-500x500.jpg" class="responsive-img" />Pandas
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/opencv-logo-1-500x500.jpg" class="responsive-img" />OpenCV
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/sk-learn-logo-1-500x500.jpg" class="responsive-img" />scikit-learn
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/matplotlib-logo-1-500x500.jpg" class="responsive-img" />matplotlib
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Frameworks -->
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Frameworks</h4>
-            <div class="row text-center">
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/django-logo.webp" class="responsive-img" />Django
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/flask-logo.png" class="responsive-img" />Flask
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/bootstrap.png" class="responsive-img" />Bootstrap
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/keras-logo.png" class="responsive-img" />Keras
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/tensorflow-logo-1.png" class="responsive-img" />TensorFlow
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/pytorch-logo.png" class="responsive-img" />PyTorch
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Other -->
-        <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Other</h4>
-            <div class="row text-center">
-
-
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/git.png" class="responsive-img" />Git
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/aws.png" class="responsive-img" />AWS
-              </div>
-              <div class="col s4 m2">
-                <img alt="" src="/assets/img/heroku.png" class="responsive-img" />Heroku
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- certifications -->
-        <!-- <div class="card">
-          <div class="card-content">
-            <h4 class="brown-text light">Certificates</h4>
-            <div class="row text-left">
-              <div class="container">
-                <div class="row">
-                  <div class="col s12 m6 l6">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="/assets/img/mooc-machine-learning-coursera-800x500.jpg">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">Machine Learning (Stanford)</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col s12 m6 l6">
-                    <div class="card">
-                      <div class="card-image">
-                        <img src="/assets/img/mooc-algorithms-stanford-2-800x500.jpg">
-                      </div>
-                      <div class="card-content">
-                        <span class="card-title teal-text">Algorithms (Stanford)</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-
-      </div>
-    </section>
-
-    <!-- Seventh Section: Education -->
-    <section id="education" class="section scrollspy">
-      <h3 class="page-title white-text teal">Education</h3>
-      <div class="container">
-        <div class="row">
-          <!-- Education -->
-      
-          <div class="col s12 m6 l6">
-            <div class="card">
-              <div class="card-content">
-                <p>
-                  <span class="card-title"><a href="https://ahduni.edu.in/academics/schools-centres/school-of-engineering-and-applied-science/" target="_blank" class="teal-text hoverline">Thapar Institute of Engineering and Technology, Patiala</a></span>
-                </p>
-                <p class="brown-text">Patiala, Punjab, India</p>
-                <p>
-                  <b>Degree: </b>Bachelor of Engineering in Electronics and Computer Engg.
-                  <br>
-                  <b>CGPA: </b>8.61/10
-                </p>
-
-                <ul>
-                  <p>
-                    <b>Relevant Courseworks:</b>
-                  <ul>
-                    <li>Data Structures and Algorithms</li>
-                    <li>Database Management Systems</li>
-                    <li>Operating Systems</li>
-                    <li>Machine Learning</li>
-                    <li>Computer Vision</li>
-                  </ul>
-                  </p>
-
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Eight Section: Contact -->
-    <section id="contact" class="section scrollspy full-height">
-      <h3 class="page-title white-text teal">Contact</h3>
-      <div class="container">
-        <p>
-          <a aria-label="Call Utkarsh" data-position="top" data-tooltip="Call Utkarsh"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-phone"></i><a
-              aria-label="Call Utkarsh">+91 7310593161</a></a>
-        </p>
-        <p>
-          <a aria-label="Email Utkarsh" href="mailto:babbarutkarsh66@gmail.com" target="_blank" data-position="top"
-            data-tooltip="Email Utkarsh" class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-envelope"></i><a aria-label="Email Utkarsh" href="mailto:babbarutkarsh66@gmail.com"
-              class="hoverline">babbarutkarsh66@gmail.com</a></a>
-        </p>
-        <p>
-          <a aria-label="View Utkarsh on GitHub" href="http://github.com/UtkarshBabbar" target="_blank"
-            data-position="top" data-tooltip="View Utkarsh on GitHub"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i class="fa fa-github"></i><a
-              aria-label="Utkarsh on Github" href="http://github.com/babbarutkarsh" class="hoverline"
-              target="_blank">github.com/babbarutkarsh</a></a>
-        </p>
-        <p>
-          <a aria-label="View Utkarsh on LinkedIn" href="http://linkedin.com/in/UtkarshBabbar" target="_blank"
-            data-position="top" data-tooltip="View Utkarsh on LinkedIn"
-            class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-              class="fa fa-linkedin"></i><a aria-label="Utkarsh on LinkedIn" href="https://www.linkedin.com/in/utkarsh-babbar-3a931a167/"
-              class="hoverline" target="_blank">https://www.linkedin.com/in/utkarsh-babbar-3a931a167/</a></a>
-        </p>
-      </div>
-    </section>
-  </main>
-
-  <!-- typed.js -->
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script type="text/javascript">
-    var typed = new Typed('.typing',{
-      strings: ["Pythonist", "Developer", "Fast Learner"],
-      loop: true,
-      typeSpeed: 80,
-      backSpeed: 40
-    });
-  </script>
-
-
-  <!-- jQuery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-  <!-- Materialize - Compiled and minified JavaScript-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/js/materialize.min.js"></script>
-  <script>
-    // Materialize - Initializers
-    $(document).ready(function () {
-      $(".scrollspy").scrollSpy()
-      // Initialize collapse button
-      $(".button-collapse").sideNav({
-        menuWidth: 190, // Default is 240
-        edge: "left", // Choose the horizontal origin
-        closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      })
-    })
-  </script>
 </body>
 
 </html>
