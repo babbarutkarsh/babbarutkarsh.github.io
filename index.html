@@ -1,418 +1,341 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
-
-    <!-- General meta data -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="url" content="https://babbarutkarsh.github.io/">
-    <meta name="description" content="Utkarsh Babbar — DevOps / Platform Engineer at Salesforce. Resume and background." />
-    <meta name="keywords" content="Utkarsh Babbar, DevOps, Platform Engineer, Salesforce, resume, SRE, Kubernetes, Terraform" />
+
+    <title>Utkarsh Babbar — Site Reliability &amp; DevOps Engineer</title>
+    <meta name="description" content="Utkarsh Babbar — Site Reliability & Observability engineer at Salesforce. Kubernetes, Terraform, Go, and telemetry platforms at scale." />
+    <meta name="keywords" content="Utkarsh Babbar, DevOps, SRE, Site Reliability, Observability, Salesforce, Kubernetes, Terraform, Go, Prometheus, Grafana" />
     <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#002b6b">
+    <meta name="theme-color" content="#05070e">
     <meta name="author" content="Utkarsh Babbar">
 
-    <!-- Open Graph / Facebook -->
-    <meta name="type" property="og:type" content="website">
-    <meta name="url" property="og:url" content="https://babbarutkarsh.github.io/">
-    <meta name="title" property="og:title" content="Utkarsh Babbar — DevOps Engineer">
-    <meta name="descripton" property="og:description" content="DevOps / Platform Engineer at Salesforce.">
-    <meta name="image" property="og:image"
-        content="https://babbarutkarsh.github.io/assets/resume/images/general/resume_image.png">
-    <meta name="image" property="og:image:secure_url"
-        content="https://babbarutkarsh.github.io/assets/resume/images/general/resume_image.png">
-    <meta property="og:image:alt" content="Utkarsh Babbar banner" />
-    <meta property="og:image:type" content="image/png" />
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://babbarutkarsh.github.io/">
+    <meta property="og:title" content="Utkarsh Babbar — Site Reliability & DevOps Engineer">
+    <meta property="og:description" content="SRE & Observability engineer at Salesforce. Telemetry platforms, Kubernetes, and infrastructure as code at scale.">
+    <meta property="og:image" content="https://babbarutkarsh.github.io/assets/resume/images/general/resume_image.png">
     <meta property="og:image:width" content="1488" />
     <meta property="og:image:height" content="497" />
-    <meta name="locale" property="og:locale" content="en_US">
-    <meta name="site_name" property="og:site_name" content='Utkarsh Babbar'>
+    <meta property="og:site_name" content="Utkarsh Babbar" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://babbarutkarsh.github.io/">
-    <meta property="twitter:title" content="Utkarsh Babbar — DevOps Engineer">
-    <meta property="twitter:description" content="DevOps / Platform Engineer at Salesforce.">
-    <meta property="twitter:image"
-        content="https://babbarutkarsh.github.io/assets/resume/images/general/resume_image.png">
+    <meta property="twitter:title" content="Utkarsh Babbar — Site Reliability & DevOps Engineer">
+    <meta property="twitter:description" content="SRE & Observability engineer at Salesforce.">
+    <meta property="twitter:image" content="https://babbarutkarsh.github.io/assets/resume/images/general/resume_image.png">
 
-    <!-- CSS -->
-    <link rel="stylesheet" rel="preload" as="style"
-        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
-    <link rel="stylesheet" rel="preload" as="style" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
-    <link rel="stylesheet" rel="preload" as="style"
-        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="icon" type="image/webp" href="./assets/resume/images/general/resume_icon.webp">
 
-    <link rel="stylesheet" rel="preload" as="style"
-        href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700">
-    <link rel="stylesheet" rel="preload" as="style"
-        href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" rel="preload" as="style" href="vendor/fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" rel="preload" as="style" href="css/resume.css?ver=43">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    <!-- Page -->
-    <link rel="icon" type="image/gif" href="./assets/resume/images/general/resume_icon.webp">
-    <title>Utkarsh Babbar</title>
-
+    <link rel="stylesheet" href="css/site.css?v=1">
 </head>
 
-<body id="page-top">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-left-bar fixed-top" id="sideNav">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">
-            <span class="d-block d-lg-none tf-rgg">Welcome amigo! </span>
-            <span class="d-none d-lg-block">
-                <img class="img-fluid img-profile rounded-circle mx-auto mb-4"
-                    src="./assets/resume/images/skills-logos/picme.webp"
-                    alt="My Avatar :3" />
-            </span>
-        </a>
+<body id="top">
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+    <!-- Layered 3D backdrop -->
+    <div class="backdrop"></div>
+    <div class="orb a"></div>
+    <div class="orb b"></div>
+    <div class="orb c"></div>
+    <div class="grid-floor"></div>
+    <div class="vignette"></div>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#education">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#awards">Achievements</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
-                </li>
-            </ul>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu"><i class="fas fa-bars"></i></button>
+
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar">
+        <div class="brand">
+            <div class="avatar-wrap">
+                <img src="./assets/resume/images/skills-logos/picme.webp" alt="Utkarsh Babbar" />
+            </div>
+            <h1 class="name">Utkarsh <span>Babbar</span></h1>
+            <div class="role">Site Reliability · DevOps</div>
+            <div class="status"><span class="dot"></span> Available · Hyderabad, India</div>
         </div>
-    </nav>
 
-    <div class="container-fluid p-0 overlay">
+        <nav class="side-nav">
+            <a href="#top"><span class="idx">01</span> Home</a>
+            <a href="#about"><span class="idx">02</span> About</a>
+            <a href="#experience"><span class="idx">03</span> Experience</a>
+            <a href="#skills"><span class="idx">04</span> Stack</a>
+            <a href="#education"><span class="idx">05</span> Education</a>
+            <a href="#awards"><span class="idx">06</span> Awards</a>
+            <a href="#contact"><span class="idx">07</span> Contact</a>
+        </nav>
 
-        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
-            <div class="w-100">
-                <h1 class="mb-0">Utkarsh
-                    <span class="text-primary">Babbar</span>
-                </h1>
+        <a class="resume-btn" href="mailto:babbarutkarsh66@gmail.com"><i class="fas fa-paper-plane"></i> Get in touch</a>
 
-                <div class="subheading mb-5 tf-rgg">Hyderabad, India ·
-                    <a id="email" class="tf-rgg" href="mailto:babbarutkarsh66@gmail.com">babbarutkarsh66@gmail.com</a>
+        <div class="side-social">
+            <a href="https://github.com/babbarutkarsh" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/utkarsh-babbar-3a931a167/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="mailto:babbarutkarsh66@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+    </aside>
+
+    <!-- Main content -->
+    <main class="content">
+
+        <!-- Hero -->
+        <section class="hero" id="hero">
+            <div class="kicker">$ whoami</div>
+            <h1>Utkarsh Babbar<br><span class="grad">I keep systems reliable at scale.</span></h1>
+            <p class="lead">
+                <strong>Member of Technical Staff (SDE2)</strong> on Site Reliability &amp; Observability
+                Platforms at <strong>Salesforce</strong>. I build high-throughput telemetry systems, run
+                Kubernetes at scale, and turn operational chaos into automated, observable infrastructure.
+            </p>
+            <div class="hero-cta">
+                <a class="btn primary" href="#experience"><i class="fas fa-terminal"></i> View experience</a>
+                <a class="btn ghost" href="https://github.com/babbarutkarsh" target="_blank" rel="noopener"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+
+            <div class="terminal" data-reveal>
+                <div class="bar">
+                    <i class="r"></i><i class="y"></i><i class="g"></i>
+                    <span>utkarsh@salesforce ~ %</span>
                 </div>
-                <div>
-                    <p data-aos="fade-down" data-aos-delay="100" data-aos-once="true" class="lead mb-5">
-                        I'm a Site Reliability &amp; Observability engineer at Salesforce (Member of
-                        Technical Staff, SDE2), where I build and operate the telemetry platforms that
-                        keep large-scale production systems reliable. My work spans Splunk, Grafana,
-                        Prometheus, and OpenTelemetry pipelines, SLA/SLO/SLI engineering, and
-                        high-severity incident response.
-                    </p>
-                    <p data-aos="fade-down" data-aos-delay="200" data-aos-once="true" class="lead mb-5">
-                        Day-to-day I write high-throughput telemetry services in Go and Python,
-                        orchestrate clusters on AWS EKS with Docker and Helm, and provision
-                        infrastructure as code with Terraform and Ansible. I enjoy turning manual,
-                        error-prone processes into automated, self-service ones — and I care about
-                        the details that make infrastructure boring in the best way: predictable
-                        deploys, clean pipelines, and good telemetry.
-                    </p>
-                    <p data-aos="fade-down" data-aos-delay="300" data-aos-once="true" class="lead mb-5">
-                        Before focusing on SRE and observability, I worked across platform and
-                        infrastructure systems and cloud automation, which still shapes how I think
-                        about building tools that solve real problems for the engineers who use them.
-                    </p>
+                <div class="body">
+                    <div><span class="p">➜</span> <span class="c">kubectl</span> <span class="o">get sli --all-namespaces</span></div>
+                    <div class="o">&nbsp;&nbsp;mttd&nbsp;&nbsp;&nbsp;&nbsp;↓ 30%&nbsp;&nbsp;&nbsp;healthy</div>
+                    <div class="o">&nbsp;&nbsp;mttr&nbsp;&nbsp;&nbsp;&nbsp;↓ 20%&nbsp;&nbsp;&nbsp;healthy</div>
+                    <div class="o">&nbsp;&nbsp;rollbacks&nbsp;↓ 10%&nbsp;&nbsp;&nbsp;healthy</div>
+                    <div><span class="p">➜</span> <span class="c">stack</span> <span class="o">= [ go, python, k8s, terraform, otel ]</span> <span class="cursor"></span></div>
+                </div>
+            </div>
+        </section>
 
-                    <div class="social-icons">
-                        <!-- <a class="tippy" data-tippy-content="Portfolio" data-aos="flip-left" data-aos-delay="600"
-                            data-aos-once="true" href="./portfolio.html" target="_blank">
-                            <i class="fa fa-folder-open"></i>
-                        </a> -->
-                        <a class="tippy" data-tippy-content="LinkedIn" data-aos="flip-left" data-aos-delay="700"
-                            data-aos-once="true" href="https://www.linkedin.com/in/utkarsh-babbar-3a931a167/" target="_blank">
-                            <i class="fab fa-linkedin-in"></i>
-                        </a>
-                        <a class="tippy" data-tippy-content="GitHub" data-aos="flip-left" data-aos-delay="800"
-                            data-aos-once="true" href="https://github.com/babbarutkarsh" target="_blank">
-                            <i class="fab fa-github"></i>
-                        </a>
-                        <a class="tippy" data-tippy-content="Email" data-aos="flip-left" data-aos-delay="900"
-                            data-aos-once="true" href="mailto:babbarutkarsh66@gmail.com">
-                            <i class="fas fa-envelope"></i>
-                        </a>
+        <!-- About -->
+        <section class="section" id="about">
+            <div class="section-head">
+                <span class="tag">02</span>
+                <h2>About</h2>
+                <span class="rule"></span>
+            </div>
+            <div class="card" data-reveal>
+                <p style="color:var(--text-dim); margin-top:0;">
+                    I'm a Site Reliability &amp; Observability engineer at Salesforce, where I build and operate
+                    the telemetry platforms that keep large-scale production systems reliable. My work spans
+                    <strong style="color:var(--text)">Splunk, Grafana, Prometheus,</strong> and
+                    <strong style="color:var(--text)">OpenTelemetry</strong> pipelines, SLA/SLO/SLI engineering,
+                    and high-severity incident response.
+                </p>
+                <p style="color:var(--text-dim);">
+                    Day-to-day I write high-throughput telemetry services in <strong style="color:var(--text)">Go and Python</strong>,
+                    orchestrate clusters on <strong style="color:var(--text)">AWS EKS</strong> with Docker and Helm, and provision
+                    infrastructure as code with <strong style="color:var(--text)">Terraform and Ansible</strong>. I care about the
+                    details that make infrastructure boring in the best way: predictable deploys, clean pipelines,
+                    and telemetry you can trust when things break.
+                </p>
+                <p style="color:var(--text-dim); margin-bottom:0;">
+                    Before focusing on SRE and observability, I worked across platform and infrastructure systems
+                    and cloud automation — which still shapes how I build tools that solve real problems for the
+                    engineers who use them.
+                </p>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="section" id="experience">
+            <div class="section-head">
+                <span class="tag">03</span>
+                <h2>Experience</h2>
+                <span class="rule"></span>
+            </div>
+            <div class="timeline">
+
+                <div class="card xp" data-reveal>
+                    <div class="xp-top">
+                        <div>
+                            <h3 class="xp-role">Member of Technical Staff (SDE2) — Site Reliability &amp; Observability</h3>
+                            <div class="xp-co">Salesforce · Hyderabad</div>
+                        </div>
+                        <span class="xp-date">Jan 2025 — Present</span>
+                    </div>
+                    <ul>
+                        <li>Designed asynchronous, high-throughput cloud telemetry services in Go and Python, optimizing back-end pipelines to scale reliably across production environments.</li>
+                        <li>Primary system owner for scalable Splunk, Grafana, and Prometheus log pipelines, ingestion routing, and alerting-rule topologies across enterprise clusters.</li>
+                        <li>Engineered real-time telemetry dashboards against strict SLAs/SLOs/SLIs, cutting production mean-time-to-detection (MTTD) by 30% for core infrastructure failures.</li>
+                        <li>Orchestrated high-volume clustered nodes on AWS EKS with Docker — clean Helm charts and custom ingress components for massive transaction footprints.</li>
+                        <li>Led incident-response rotations for high-severity (Sev 1/2) issues, establishing RCA records and automated runbooks to reduce MTTR by 20%.</li>
+                    </ul>
+                </div>
+
+                <div class="card xp" data-reveal>
+                    <div class="xp-top">
+                        <div>
+                            <h3 class="xp-role">Software Development Engineer 1 — Platform &amp; Infrastructure</h3>
+                            <div class="xp-co">Amadeus Software Labs · Bengaluru</div>
+                        </div>
+                        <span class="xp-date">Aug 2022 — Dec 2024</span>
+                    </div>
+                    <ul>
+                        <li>Built decentralized telemetry environments — structured logging and metrics via OpenTelemetry — and identified scale boundaries inside core clusters.</li>
+                        <li>Refactored high-load microservices in C++ and Java, reducing platform memory consumption by 15% while sustaining a 20% increase in active workloads.</li>
+                        <li>Provisioned scalable CI architectures on AWS (Lambda, API Gateway, DynamoDB) from scratch via modular, reusable Terraform and Ansible.</li>
+                        <li>Developed Python and Go automation tooling wrapped in Molecule test layers, cutting execution latency by 40%.</li>
+                        <li>Configured end-to-end monitoring with Prometheus and Grafana across 30+ services; mentored 4 junior engineers on production cloud deployments.</li>
+                    </ul>
+                </div>
+
+                <div class="card xp" data-reveal>
+                    <div class="xp-top">
+                        <div>
+                            <h3 class="xp-role">Software Development Intern — Cloud Automation</h3>
+                            <div class="xp-co">Amadeus Software Labs · Bengaluru</div>
+                        </div>
+                        <span class="xp-date">Jan 2022 — Aug 2022</span>
+                    </div>
+                    <ul>
+                        <li>Crafted multi-cloud assets with Terraform, Terragrunt, and Python, reducing infrastructure rollout overhead by 40%.</li>
+                        <li>Deployed application collection and metric-visualization architectures with Prometheus and Grafana across 50+ microservice pods, cutting debugging time by 25%.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section" id="skills">
+            <div class="section-head">
+                <span class="tag">04</span>
+                <h2>Stack</h2>
+                <span class="rule"></span>
+            </div>
+            <div class="skills-grid">
+                <div class="card skill-card" data-reveal>
+                    <h3><i class="fas fa-chart-line"></i> Observability</h3>
+                    <div class="chips">
+                        <span class="chip">Splunk</span><span class="chip">OpenTelemetry</span>
+                        <span class="chip">Grafana</span><span class="chip">Prometheus</span>
+                        <span class="chip">New Relic</span><span class="chip">OTel Collector</span>
+                    </div>
+                </div>
+                <div class="card skill-card" data-reveal>
+                    <h3><i class="fas fa-cubes"></i> Containers &amp; Orchestration</h3>
+                    <div class="chips">
+                        <span class="chip">Kubernetes</span><span class="chip">AWS EKS</span>
+                        <span class="chip">Docker</span><span class="chip">Helm</span>
+                        <span class="chip">Cluster Ops</span>
+                    </div>
+                </div>
+                <div class="card skill-card" data-reveal>
+                    <h3><i class="fas fa-layer-group"></i> Infrastructure as Code</h3>
+                    <div class="chips">
+                        <span class="chip">Terraform</span><span class="chip">Terragrunt</span>
+                        <span class="chip">Ansible</span><span class="chip">Molecule</span>
+                    </div>
+                </div>
+                <div class="card skill-card" data-reveal>
+                    <h3><i class="fas fa-cloud"></i> Cloud &amp; Architecture</h3>
+                    <div class="chips">
+                        <span class="chip">AWS</span><span class="chip">EC2</span><span class="chip">Lambda</span>
+                        <span class="chip">DynamoDB</span><span class="chip">API Gateway</span>
+                        <span class="chip">CloudFormation</span><span class="chip">Azure</span><span class="chip">GCP</span>
+                    </div>
+                </div>
+                <div class="card skill-card" data-reveal>
+                    <h3><i class="fas fa-shield-halved"></i> SRE Practice</h3>
+                    <div class="chips">
+                        <span class="chip">SLA / SLO / SLI</span><span class="chip">Incident Response</span>
+                        <span class="chip">RCA &amp; Runbooks</span><span class="chip">Cost Guardrails</span>
+                    </div>
+                </div>
+                <div class="card skill-card" data-reveal>
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <div class="chips">
+                        <span class="chip">Go</span><span class="chip">Python</span>
+                        <span class="chip">Groovy</span><span class="chip">Bash</span>
+                        <span class="chip">C++</span><span class="chip">Java</span>
+                        <span class="chip">YAML</span><span class="chip">JSON</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <hr class="m-0">
-
-        <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
-            <div class="w-100">
-                <h2 class="mb-5">Experience</h2>
-                <div data-aos="fade-right" data-aos-once="true"
-                    class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                        <h4 class="mb-0 text-white">Member of Technical Staff (SDE2) — Site Reliability &amp; Observability Platforms</h4>
-                        <div class="subheading mb-3">Salesforce, Hyderabad</div>
-                        <p>
-                            • Designed asynchronous, high-throughput cloud telemetry services in Go and Python, optimizing back-end processing pipelines to scale reliably across production environments.</br>
-                            • Acted as primary system owner for scalable Splunk, Grafana, and Prometheus log pipelines, ingestion routing, and alerting-rule topologies across enterprise clusters.</br>
-                            • Engineered real-time telemetry dashboards against strict SLAs/SLOs/SLIs, reducing production mean time to detection (MTTD) by 30% for core infrastructure failures.</br>
-                            • Orchestrated high-volume clustered nodes on AWS EKS with Docker, building clean Helm charts and custom ingress components for massive transaction footprints.</br>
-                            • Led incident-response rotations for high-severity (Sev 1/2) issues, establishing RCA records and automated runbooks to cut MTTR by 20%.
-                        </p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="  subheading">Jan 2025 - Present</span>
-                    </div>
+        <!-- Education -->
+        <section class="section" id="education">
+            <div class="section-head">
+                <span class="tag">05</span>
+                <h2>Education</h2>
+                <span class="rule"></span>
+            </div>
+            <div class="edu-grid">
+                <div class="card edu-card" data-reveal>
+                    <h3>B.E. — Electronics &amp; Computer Engineering</h3>
+                    <div class="sub">Thapar Institute of Engineering &amp; Technology, Patiala</div>
+                    <div class="meta"><span>CGPA 8.9 / 10</span><span>2018 — 2022</span></div>
                 </div>
-
-                <div data-aos="fade-right" data-aos-once="true"
-                    class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                        <h4 class="mb-0 text-white">Software Development Engineer 1 — Platform &amp; Infrastructure Systems</h4>
-                        <div class="subheading mb-3">Amadeus Software Labs, Bengaluru</div>
-                        <p>
-                            • Built decentralized telemetry environments — structured logging and metrics via OpenTelemetry — and identified scale boundaries inside core clusters.</br>
-                            • Refactored high-load microservices in C++ and Java, reducing platform memory consumption by 15% while sustaining a 20% increase in active workloads.</br>
-                            • Provisioned scalable CI architectures on AWS (Lambda, API Gateway, DynamoDB) from scratch via modular, reusable Terraform and Ansible.</br>
-                            • Developed Python and Go automation tooling wrapped in Molecule test layers, cutting execution latency by 40%.</br>
-                            • Configured end-to-end monitoring with Prometheus and Grafana across 30+ services, and mentored 4 junior engineers on production cloud deployments.
-                        </p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="  subheading">Aug 2022 - Dec 2024</span>
-                    </div>
+                <div class="card edu-card" data-reveal>
+                    <h3>Indian School Certificate (ISC), Class XII</h3>
+                    <div class="sub">Doon Presidency School, Dehradun</div>
+                    <div class="meta"><span>86%</span><span>2017</span></div>
                 </div>
-
-                <div data-aos="fade-right" data-aos-once="true"
-                    class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                        <h4 class="mb-0 text-white">Software Development Intern — Cloud Automation</h4>
-                        <div class="subheading mb-3">Amadeus Software Labs, Bengaluru</div>
-                        <p>
-                            • Crafted multi-cloud assets using Terraform, Terragrunt, and Python, reducing infrastructure rollout overhead by 40%.</br>
-                            • Deployed application collection and metric-visualization architectures with Prometheus and Grafana across 50+ microservice pods, cutting debugging time by 25%.
-                        </p>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="  subheading">Jan 2022 - Aug 2022</span>
-                    </div>
-                </div>
-
-                <!-- No one cares about this :c
-
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                <div class="resume-content">
-                    <h4 class="mb-0 text-white">Game Master</h4>
-                    <div class="subheading mb-3">Splitscreen Studios GmbH, Hamburg</div>
-                    <p>Generally, invest most of the time in support chat, which involves moderating the public chat and the
-                    support chat itself. Therefore, it was essential, above all, to have the ability to be completely
-                    impartial
-                    and objective before the different situations they may present. Managed and made many events, for more
-                    than 230 active users at the same time. And honestly, most fun i've ever had moderating a community!</p>
-                </div>
-                <div class="resume-date text-md-right">
-                    <span class="  subheading">Aug. 2016 – Jan. 2018</span>
-                </div>
-                </div>
-
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                <div class="resume-content">
-                    <h4 class="mb-0 text-white">Community Administrator</h4>
-                    <div class="subheading mb-3">CU Servers, Valencia</div>
-                    <p>Managed a vast gaming community of +4.000 users. Worked alongside with all moderation teams, taking in
-                    consideration the user, the community, and the company, to make sure each action is not only right and
-                    neutral, but also a suitable solution for all parties.</p>
-                </div>
-                <div class="resume-date text-md-right">
-                    <span class="  subheading">Apr. 2014 – Oct. 2016</span>
-                </div>
-                </div>
-
-                <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
-                <div class="resume-content">
-                    <h4 class="mb-0 text-white">Server Administrator</h4>
-                    <div class="subheading mb-3">Gmoddayz (CyberGmod), UK</div>
-                    <p>Server Administrator at CyberGmod, lately renamed <a  href="http://hbn.gg/">Hellbreak
-                        Network</a>. Worked
-                    with the
-                    community and moderated the whole array of GMod servers such as DayZ, TTTs, etc.. that we had at the time.
-                    </p>
-                </div>
-                <div class="resume-date text-md-right">
-                    <span class="  subheading">Jan. 2014 – Aug. 2015</span>
-                </div>
-                </div
-                -->
-
             </div>
         </section>
 
-        <hr class="m-0">
-
-        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-            <div class="w-100">
-                <h2 class="mb-5">Education</h2>
-
-                <div data-aos="fade-down" data-aos-once="true"
-                    class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                        <h4 class="mb-0 text-white ">
-                            Bachelor of Electronics and Computer Engineering
-                        </h4>
-                        <div class="subheading">Thapar Institute of Engineering &amp; Technology, Patiala</div>
-                        <span>CGPA: 8.9/10</span>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="  subheading">2018 - 2022</span>
-
-                    </div>
-                </div>
-
-                
-
-               
-
-               
-
-                <div data-aos="fade-down" data-aos-once="true"
-                    class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                    <div class="resume-content">
-                        <h4 class="mb-0 text-white">
-                            ISC Class 12th (PCM)
-                        </h4>
-                        <div class="subheading">Doon Presidency School, Dehradun</div>
-                        <span>Percentage: 86%</span>
-                    </div>
-                    <div class="resume-date text-md-right">
-                        <span class="  subheading">2017</span>
-                    </div>
-                </div>
-
-                <div data-aos="fade-down" data-aos-once="true"
-                class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-                <div class="resume-content">
-                    <h4 class="mb-0 text-white">
-                        ICSE Class 10th (Science)
-                    </h4>
-                    <div class="subheading">Doon Presidency School, Dehradun</div>
-                    <span>Percentage: 90%</span>
-                </div>
-                <div class="resume-date text-md-right">
-                    <span class="  subheading">2015</span>
-                </div>
+        <!-- Awards -->
+        <section class="section" id="awards">
+            <div class="section-head">
+                <span class="tag">06</span>
+                <h2>Awards &amp; Certifications</h2>
+                <span class="rule"></span>
             </div>
-
+            <div class="awards">
+                <div class="card award" data-reveal>
+                    <div class="ico"><i class="fas fa-certificate"></i></div>
+                    <div><div class="yr">2025</div><p>SAFe Agilist (Scrum) — earned with a 90% score.</p></div>
+                </div>
+                <div class="card award" data-reveal>
+                    <div class="ico"><i class="fas fa-trophy"></i></div>
+                    <div><div class="yr">2024</div><p>Amadeus Game Changer Award — high-impact cloud architecture during complex migrations.</p></div>
+                </div>
+                <div class="card award" data-reveal>
+                    <div class="ico"><i class="fab fa-aws"></i></div>
+                    <div><div class="yr">2023</div><p>AWS Certified Cloud Practitioner (CCP) &amp; Microsoft Azure Fundamentals (AZ-900).</p></div>
+                </div>
+                <div class="card award" data-reveal>
+                    <div class="ico"><i class="fas fa-award"></i></div>
+                    <div><div class="yr">—</div><p>2nd of 150+ teams at HackOWASP; 650+ problems solved on InterviewBit &amp; LeetCode.</p></div>
+                </div>
             </div>
         </section>
 
-        <hr class="m-0">
-
-        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-            <div class="w-100">
-                <h2 class="mb-5">Awards &amp; Certifications</h2>
-                <ul class="mb-0">
-                    <li data-aos="zoom-in" data-aos-once="true"><p><strong>SAFe Agilist (Scrum)</strong> — earned in 2025 with a 90% score.</p></li>
-                    <li data-aos="zoom-in" data-aos-once="true"><p><strong>Amadeus Game Changer Award (2024)</strong> — for delivering high-impact cloud architecture solutions during complex migrations.</p></li>
-                    <li data-aos="zoom-in" data-aos-once="true"><p><strong>AWS Certified Cloud Practitioner (CCP)</strong> and <strong>Microsoft Azure Fundamentals (AZ-900)</strong> — 2023.</p></li>
-                    <li data-aos="zoom-in" data-aos-once="true"><p>Won second prize out of 150+ teams at the HackOWASP hackathon, solving an ISRO problem statement.</p></li>
-                    <li data-aos="zoom-in" data-aos-once="true"><p>Solved 650+ problems on InterviewBit and LeetCode.</p></li>
-                </ul>
+        <!-- Contact -->
+        <section class="section" id="contact">
+            <div class="section-head">
+                <span class="tag">07</span>
+                <h2>Contact</h2>
+                <span class="rule"></span>
             </div>
-        </section>
-
-        <hr class="m-0">
-
-        <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
-            <div>
-                <h2>Technical skills</h2>
-
-                <div class="subheading mb-3 title-skillsection"> Observability &amp; monitoring: </div>
-                <p class="mb-4">
-                    Splunk · OpenTelemetry (OTel Collector pipelines, instrumentation) · Grafana · Prometheus · New Relic
-                </p>
-
-                <div class="subheading mb-3 title-skillsection"> Containers &amp; orchestration: </div>
-                <p class="mb-4">
-                    Kubernetes · AWS EKS · Docker · Helm charts · large-scale cluster operations
-                </p>
-
-                <div class="subheading mb-3 title-skillsection"> Infrastructure as code: </div>
-                <p class="mb-4">
-                    Terraform · Terragrunt · Ansible playbooks · Molecule automation testing
-                </p>
-
-                <div class="subheading mb-3 title-skillsection"> Cloud &amp; architecture: </div>
-                <p class="mb-4">
-                    AWS (EKS, EC2, Lambda, DynamoDB, API Gateway, CloudFormation) · Azure · GCP
-                </p>
-
-                <div class="subheading mb-3 title-skillsection"> SRE &amp; platform practice: </div>
-                <p class="mb-4">
-                    SLA / SLO / SLI telemetry engineering · incident response (Sev 1/2) · RCA &amp; runbooks · cost optimization &amp; guardrails
-                </p>
-
-                <div class="subheading mb-3 title-skillsection"> Programming &amp; scripting: </div>
-                <div class="d-flex flex-row flex-wrap ">
-                    <a data-tippy-content="Python" class="image-skill-container tippy m-1" target="_blank"
-                        href="https://www.python.org/">
-                        <img alt="Python" class="image-skill" src="./assets/resume/images/skills-logos/python.webp" />
-                    </a>
-                    <a data-tippy-content="Bash / Shell scripting" class="image-skill-container tippy m-1"
-                        target="_blank" href="https://www.gnu.org/software/bash/">
-                        <img alt="Bash" class="image-skill" src="./assets/resume/images/skills-logos/bash.webp" />
-                    </a>
-                    <a data-tippy-content="C++" class="image-skill-container tippy m-1" target="_blank"
-                        href="https://en.wikipedia.org/wiki/C%2B%2B">
-                        <img alt="C++" class="image-skill" src="./assets/resume/images/skills-logos/c++.webp" />
-                    </a>
-                    <a data-tippy-content="Java" class="image-skill-container tippy m-1" target="_blank"
-                        href="https://www.java.com/">
-                        <img alt="Java" class="image-skill" src="./assets/resume/images/skills-logos/java.webp" />
-                    </a>
-                    <a data-tippy-content="JavaScript" class="image-skill-container tippy m-1" target="_blank"
-                        href="https://www.javascript.com/">
-                        <img alt="JavaScript" class="image-skill" src="./assets/resume/images/skills-logos/js.webp" />
-                    </a>
-                </div>
-                <p class="mb-4">Also: Go (GoLang), Groovy pipelines, YAML, JSON.</p>
-
-                <div class="subheading mt-3">Want the full details? Check out my
-                    <a type="button" class="btn button-gh" href="https://github.com/babbarutkarsh" target="_blank">GitHub</a>
-                    or my
-                    <a type="button" class="btn button-gh" href="https://www.linkedin.com/in/utkarsh-babbar-3a931a167/" target="_blank">LinkedIn</a>.
+            <div class="card contact-card" data-reveal>
+                <h2>Let's build reliable systems.</h2>
+                <p>Open to conversations about SRE, observability, and platform engineering. The fastest way to reach me is email.</p>
+                <div class="hero-cta" style="justify-content:center;">
+                    <a class="btn primary" href="mailto:babbarutkarsh66@gmail.com"><i class="fas fa-envelope"></i> babbarutkarsh66@gmail.com</a>
+                    <a class="btn ghost" href="https://www.linkedin.com/in/utkarsh-babbar-3a931a167/" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
                 </div>
             </div>
         </section>
-    </div>
 
+    </main>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.min.js"
-        integrity="sha256-hlKLmzaRlE8SCJC1Kw8zoUbU8BxA+8kR3gseuKfMjxA=" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="https://unpkg.com/tippy.js@6"></script>
+    <footer class="footer">
+        <span>© Utkarsh Babbar · Built &amp; deployed on GitHub Pages</span>
+        <span><a href="https://github.com/babbarutkarsh" target="_blank" rel="noopener">github.com/babbarutkarsh</a></span>
+    </footer>
 
-    <script src="js/resume.min.js"></script>
-
+    <script src="js/site.js?v=1"></script>
 </body>
 
 </html>
